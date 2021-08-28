@@ -11,7 +11,7 @@ async function main() {
     _print(`Initialized ${App.YOUR_ADDRESS}\n`);
     _print("Reading smart contracts...\n");
 
-   const PANCAKE_CHEF_ADDR = "0xAFC523E243ae7dF5e8Ee38bF323f280b17C93bd7";
+   const PANCAKE_CHEF_ADDR = "0x2f5E62e9a7f3C4C2D403393712ebE9Be8026A07c";
    const rewardTokenTicker = "OAK";
    const PANCAKE_CHEF = new ethers.Contract(PANCAKE_CHEF_ADDR, PANCAKE_CHEF_ABI, App.provider);
 
